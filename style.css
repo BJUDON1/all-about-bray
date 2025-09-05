@@ -15,7 +15,7 @@ h1 {
 
 }
 
-#main-title {
+.main-title {
     color:blue;
     font-size: 48px;
     text-align: center;
@@ -78,4 +78,13 @@ body{
 h3{
     font-size: 89;
     text-align: center;
+}
+
+.schedule{
+    font-size: 36px;
+    text-align: center;
+}
+
+@media screen and (max-width: 599px) {
+    
 }
