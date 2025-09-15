@@ -10,6 +10,7 @@ h1 {
     background-color: yellow;
     color:black;
     padding: 5px;
+    font-family: cursive;
 
     
 
@@ -43,33 +44,32 @@ p {
     text-transform: uppercase;
 }
 
-#article-title {
-    font-family: cursive;
-}
+
+
 
 .background {
     background-color: lightblue;
 }
 
 
-.navbar ul{
+.navbar {
     list-style-type: none;
     background-color: hsl(0, 0%, 25%);
     padding: 0px;
     margin: 0px;
     overflow: hidden  ;
 }
-.navbar a{
+.navbar .g{
     color: white;
     text-decoration: none;
     padding: 15px;
     display: block;
     text-align: center;
 }
-.navbar a:hover{
+.navbar g:hover{
     background-color: hsl(0, 0%, 10%);
 }
-.navbar li{
+.navbar .p{
     float: left;
 }
 body{
@@ -84,7 +84,21 @@ h3{
     font-size: 36px;
     text-align: center;
 }
+.section-one{
+    columns: row;}
 
 @media screen and (max-width: 599px) {
     
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 20px;
+    padding-bottom: 300px;
+}
+.schedule{
+    padding-left: 400px;
 }
